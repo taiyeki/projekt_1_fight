@@ -39,7 +39,7 @@ public class App {
                     int dator_tal = tärning.nextInt(6);
                         if (dator_tal>spelar_tal) 
                             {
-                                 int damage = tärning.nextInt(14)+7;
+                                 int damage = tärning.nextInt(7)+7;
                                  health-=damage;
                                 System.out.println("You have been hit! Health remaining: "+(health));
                                 System.out.println("Enemy combatant has "+health2+" health remaining.");
